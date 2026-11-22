@@ -764,3 +764,112 @@ footer p {
         animation-duration: .01ms !important;
     }
 }
+
+/* ========================= */
+/* HERO TECH VISUAL */
+/* ========================= */
+
+.hero-tech-card {
+    width: 100%;
+    max-width: 440px;
+    min-height: 430px;
+    padding: 32px;
+    background: #1b1e1b;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-tech-card::before {
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border: 1px solid rgba(225, 123, 97, 0.16);
+    border-radius: 50%;
+    top: 90px;
+    right: -100px;
+}
+
+.hero-tech-card::after {
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border: 1px solid rgba(225, 123, 97, 0.12);
+    border-radius: 50%;
+    top: 135px;
+    right: -55px;
+}
+
+.tech-card-top,
+.tech-card-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    color: #a2a59d;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.tech-symbol {
+    font-size: 110px;
+    font-weight: 800;
+    letter-spacing: -10px;
+    color: #eeeee8;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.tech-symbol span {
+    color: #e17b61;
+}
+
+.tech-card-info {
+    position: relative;
+    z-index: 2;
+}
+
+.tech-card-info h3 {
+    font-size: 34px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color: #eeeee8;
+    margin-bottom: 14px;
+}
+
+.tech-card-info p {
+    font-size: 13px;
+    color: #a2a59d;
+    line-height: 1.7;
+}
+
+.tech-card-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding-top: 20px;
+    color: #e17b61;
+    position: relative;
+    z-index: 2;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .hero-tech-card {
+        min-height: 340px;
+        padding: 24px;
+    }
+
+    .tech-symbol {
+        font-size: 80px;
+    }
+
+    .tech-card-info h3 {
+        font-size: 28px;
+    }
+}
