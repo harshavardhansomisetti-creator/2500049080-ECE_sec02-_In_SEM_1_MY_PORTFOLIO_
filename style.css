@@ -7,17 +7,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-    --bg: #f1f0ea;
-    --surface: #e7e6df;
-    --surface2: #dbdad2;
-    --text: #171815;
-    --muted: #6e7069;
-    --accent: #c34d35;
-    --border: rgba(23,24,21,.16);
-    --nav-bg: rgba(241,240,234,.88);
-    --shadow: 0 15px 45px rgba(0,0,0,.05);
+    --bg: #111311;
+    --surface: #1b1e1b;
+    --surface2: #242724;
+    --text: #eeeee8;
+    --muted: #a2a59d;
+    --accent: #e17b61;
+    --border: rgba(255,255,255,.13);
+    --nav-bg: rgba(17,19,17,.88);
+    --shadow: 0 15px 45px rgba(0,0,0,.2);
 }
-
 [data-theme="dark"] {
     --bg: #111311;
     --surface: #1b1e1b;
