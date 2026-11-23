@@ -114,7 +114,7 @@ contactForm.addEventListener("submit", function(event) {
         return;
     }
 
-    const yourEmail = "YOUR_EMAIL@example.com";
+    const yourEmail = "harshavardhansomisetti@gmail.com";
 
     const subject = encodeURIComponent(
         "Portfolio Contact - " + name
